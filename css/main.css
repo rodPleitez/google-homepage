@@ -1,0 +1,15 @@
+body {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #222;
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+header {
+    display: flex;  
+    padding: 6px;
+}
