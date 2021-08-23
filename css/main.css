@@ -123,6 +123,11 @@ a:hover {
     max-width: 584px;
     justify-self: center;
 }
+
+.search-bar-box:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .40);
+    border-color: rgba(196, 198, 202, 0);
+}
 .mag-glass {
     margin-top: 12px;
     margin-left: 15px;
