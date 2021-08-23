@@ -37,13 +37,24 @@ a:hover {
     justify-self: flex-start;
 }
 
+.gmail-box{
+    margin-top: auto;
+}
+
+.sign-in-box {
+    margin-top: auto; 
+
+}
+
 .about {
+    margin-top: auto;
     padding: 5px;
     margin-left: 15px;
 
 }
 
 .store {
+    margin-top: auto;
     padding: 5px;
     margin-left: 5px;
 }
@@ -58,7 +69,7 @@ a:hover {
 
 .sign-in {
     cursor: pointer;
-    margin: 2px 8px 0 8px;
+    margin: 0px 8px 0 8px;
     padding: 9px 23px;
     text-align: center;
     vertical-align: middle;
@@ -78,8 +89,20 @@ a:hover {
 }
 
 .apps {
+    margin-top: 5px;
     margin-left: 10px;
     padding: 5px;
+    box-shadow: none;
+    border-radius: 50%;
+}
+.apps:hover {
+    box-shadow: 0 10px 6px rgba(32, 33, 36, .40);
+    border-color: rgba(196, 198, 202, 0);
+    
+}
+.apps-image {
+    position: relative;
+    top: 8px;
 }
 
 .gmail {
