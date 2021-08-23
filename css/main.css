@@ -7,6 +7,7 @@ body {
     grid-template-rows: repeat(5, auto);
     margin: 0px;
     min-width: 400px;
+    min-height: 100vh;
 }
 
 header {
@@ -24,6 +25,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+#gray-font {
+    color: rgb(112, 117, 122);
 }
 
 /*top left corner*/
@@ -182,3 +186,78 @@ a:hover {
     border: 1px solid #c0c3c7;
 }
 
+.empty {
+    display: grid;
+    height: 30vh;
+    grid-template-columns: auto;
+}
+
+.new-object {
+    display: grid;
+    justify-self: center;
+    align-self: flex-start;
+    grid-template-columns: auto auto;
+}
+
+.new-image {
+    margin-right: 5px;
+}
+
+.new-link {
+    align-self: center;
+    color: #1a0dab;
+
+}
+
+footer {
+    display: grid;
+    grid-template-areas: 
+                    "b a c";
+    grid-template-columns: repeat(3, auto);
+    background: #e2e2e2;
+    box-sizing: border-box;
+    margin-top: auto;
+    height: 5vh;
+    
+}
+
+.business {
+    grid-area: b;
+    display: flex;
+    justify-self: flex-start;
+    align-self: center;
+}
+
+.bottom-elem {
+    padding: 15px;
+}
+
+
+.eco {
+    grid-area: a;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.eco-image {
+    width: 12.25px;
+    height: 14px;
+    margin-right: 6px;
+}
+
+.privacy {
+    grid-area: c;
+    display: flex;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.button {
+    border: none;
+    background: none;
+}
+.buttom:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
