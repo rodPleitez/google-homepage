@@ -49,11 +49,12 @@ a:hover {
 .top-right {
     display: flex;
     justify-self: flex-end;
+    margin-top: 5px;
 }
 
 .sign-in {
     cursor: pointer;
-    margin: 0 8px 0 8px;
+    margin: 2px 8px 0 8px;
     padding: 9px 23px;
     text-align: center;
     vertical-align: middle;
@@ -87,3 +88,97 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0 15px 0 5px;
 }
+
+/* logo */
+.logo {
+    aspect-ratio: auto 272 / 92;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.google-logo {
+    display: grid;
+    height: 300px;
+}
+
+/* search bar and stuff */
+
+.search {
+    display: grid;
+}
+
+.search-bar-box {
+    display: flex;
+    border: 1px solid #c4c7ce;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    max-width: 584px;
+    justify-self: center;
+}
+.mag-glass {
+    margin-top: 12px;
+    margin-left: 15px;
+    opacity: 0.5;
+}
+
+.search-bar {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 10%;
+    height: 34px;
+    font-size: 16px;
+
+}
+
+.submit {
+    justify-self: center;
+    margin-top: auto;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    
+}
+
+.google-search {
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    cursor: pointer;
+    line-height: 27px;
+    text-align: center;
+    height: 36px;
+    min-width: 54px;
+    margin: 10px;
+}
+
+.iml {
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    cursor: pointer;
+    line-height: 27px;
+    text-align: center;
+    height: 36px;
+    min-width: 54px;
+    margin: 10px;
+}
+
+.google-search:hover {
+    border: 1px solid #c0c3c7;
+}
+.iml:hover {
+    border: 1px solid #c0c3c7;
+}
+
